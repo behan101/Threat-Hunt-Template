@@ -6,7 +6,7 @@
 - [Threat Hunt: ""]
 - [Platforms and Tools](#-platforms-and-tools)
 - [Summary of Findings (Flags)](#-summary-of-findings-flags)
-  - [Flag 0: Starting Point – ]
+  - [Flag 0: Starting Point ]
   - [Flag 1: ]
   - [Flag 2: ]
   - [Flag 3: ]
