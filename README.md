@@ -1,12 +1,10 @@
-# Threat Hunt Template
-
+# Threat Hunt:
 
 # 📚 Table of Contents
 
 - [Threat Hunt: ""]
 - [Platforms and Tools](#-platforms-and-tools)
 - [Summary of Findings (Flags)](#-summary-of-findings-flags)
-  - [Flag 0: Starting Point ]
   - [Flag 1: ]
   - [Flag 2: ]
   - [Flag 3: ]
@@ -22,6 +20,11 @@
   - [Flag 13: ]
   - [Flag 14: ]
   - [Flag 15: ]
+  - [Flag 16: ]
+  - [Flag 17: ]
+  - [Flag 18: ]
+  - [Flag 19: ]
+  - [Flag 20: ]
 - [MITRE ATT&CK Technique Mapping](#-mitre-attck-technique-mapping)
 - [Conclusion](#-conclusion)
 - [Lessons Learned](#-lessons-learned)
@@ -55,7 +58,6 @@ This report includes:
 
 | Flag | Objective Description | Finding | TimeStamp |
 |------|------------------------|---------|-----------|
-| 0 |                           |         |           |
 | 1 |                           |         |           |
 | 2 |                           |         |           |
 | 3 |                           |         |           |
@@ -71,9 +73,14 @@ This report includes:
 | 13 |                          |         |           |
 | 14 |                          |         |           |
 | 15 |                          |         |           |
+| 16 |                          |         |           |
+| 17 |                          |         |           |
+| 18 |                          |         |           |
+| 19 |                          |         |           |
+| 20 |                          |         |           |
 
 ---
-### 🚩 Flag 0: Starting Point - Suspicious Processes Spawning in Downloads
+### 🚩 Flag 1:
 
 **Objective:**
 **Flag Value:**
@@ -86,20 +93,7 @@ This report includes:
 
 ---
 
-### 🚩 Flag 1: Initial Execution Detection
-
-**Objective:**
-**Flag Value:**
-**Detection Strategy:**
-**KQLQuery:**
-```kql
-```
-**Evidence:**
-**Why This Matters:**
-
----
-
-### 🚩 Flag 2: Defense Disabling
+### 🚩 Flag 2:
 
 **Objective:**
 **Flag Value:**
@@ -126,6 +120,7 @@ This report includes:
 ---
 
 ### 🚩 Flag 4:
+
 **Objective:**
 **Flag Value:**
 **Detection Strategy:**
@@ -269,11 +264,70 @@ This report includes:
 
 ---
 
+### 🚩 Flag 16:
+**Objective:**
+**Flag Value:**
+**Detection Strategy:**
+**KQLQuery:**
+```kql
+```
+**Evidence:**
+**Why This Matters:**
+
+---
+
+### 🚩 Flag 17:
+**Objective:**
+**Flag Value:**
+**Detection Strategy:**
+**KQLQuery:**
+```kql
+```
+**Evidence:**
+**Why This Matters:**
+
+---
+
+### 🚩 Flag 18:
+**Objective:**
+**Flag Value:**
+**Detection Strategy:**
+**KQLQuery:**
+```kql
+```
+**Evidence:**
+**Why This Matters:**
+
+---
+
+### 🚩 Flag 19:
+**Objective:**
+**Flag Value:**
+**Detection Strategy:**
+**KQLQuery:**
+```kql
+```
+**Evidence:**
+**Why This Matters:**
+
+---
+
+### 🚩 Flag 20:
+**Objective:**
+**Flag Value:**
+**Detection Strategy:**
+**KQLQuery:**
+```kql
+```
+**Evidence:**
+**Why This Matters:**
+
+---
+
 ## 🎯 MITRE ATT&CK Technique Mapping
 
 | Flag | MITRE Technique                    | ID                                                          | Description                                                             |
 | ---- | ---------------------------------- | ----------------------------------------------------------- | ----------------------------------------------------------------------- |
-| 0    |                                    |                                                             |                                                                         |
 | 1    |                                    |                                                             |                                                                         |
 | 2    |                                    |                                                             |                                                                         |
 | 3    |                                    |                                                             |                                                                         |
@@ -289,6 +343,11 @@ This report includes:
 | 13   |                                    |                                                             |                                                                         |
 | 14   |                                    |                                                             |                                                                         |
 | 15   |                                    |                                                             |                                                                         |
+| 16   |                                    |                                                             |                                                                         |
+| 17   |                                    |                                                             |                                                                         |
+| 18   |                                    |                                                             |                                                                         |
+| 19   |                                    |                                                             |                                                                         |
+| 20   |                                    |                                                             |                                                                         |
 
 ---
 
